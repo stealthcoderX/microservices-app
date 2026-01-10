@@ -6,7 +6,7 @@ metadata:
   labels:
     app: techsolutions
 spec:
-  replicas: 5
+  replicas: 3
   selector:
     matchLabels:
       app: techsolutions
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: techsolutions
-        image: kastrov/techsolutions-app:latest
+        image: captainnoor1/techsolutions-app:latest
         ports:
         - containerPort: 80
         resources:
