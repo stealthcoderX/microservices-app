@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_REPO = 'kastrov/techsolutions-app'
-        K8S_CLUSTER_NAME = 'kastro-cluster'
+        DOCKER_HUB_REPO = 'captainnoor1/techsolutions-app'
+        K8S_CLUSTER_NAME = 'captain-cluster'
         AWS_REGION = 'us-east-1'
         NAMESPACE = 'default'
         APP_NAME = 'techsolutions'
