@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-# Copy HTML files to nginx document root
+# Copy HTML files to nginx document root/
 COPY index.html /usr/share/nginx/html/
 COPY about.html /usr/share/nginx/html/
 COPY services.html /usr/share/nginx/html/
